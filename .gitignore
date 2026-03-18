@@ -1,0 +1,40 @@
+# Python files
+api.py
+app.py
+db.py
+new.py
+test.py
+
+# Directories
+__pycache__/
+
+# Virtual environments
+myenv/
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache and build artifacts
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+.env
+*.log

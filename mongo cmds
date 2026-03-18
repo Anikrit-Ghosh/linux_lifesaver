@@ -1,0 +1,9 @@
+sudo systemctl status mongod.service
+
+sudo systemctl start mongod.service
+
+mongosh
+
+uvicorn api:app --reload
+
+streamlit run app.py

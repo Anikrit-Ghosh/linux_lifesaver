@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+motor
+google-genai
+streamlit
+requests
+anthropic
+psutil
+GPUtil
