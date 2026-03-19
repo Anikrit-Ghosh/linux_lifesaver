@@ -305,8 +305,8 @@ elif st.session_state.step == 3:
         st.info("Download the official ISO.")
         st.link_button("Download ISO", d['iso_url'])
     with t2:
-        st.info("Flash to USB using Etcher.")
-        st.link_button("Get Etcher", "https://etcher.balena.io/")
+        st.info("Flash to USB using Rufus.")
+        st.link_button("Get Rufus", "https://github.com/pbatard/rufus/releases/download/v4.13/rufus-4.13.exe")
     with t3:
         st.write("Reboot and press F12 for Boot Menu.")
         if st.button("✅ Installation Done"):
