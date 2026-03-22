@@ -9,7 +9,7 @@ from datetime import datetime
 import os
 
 # --- Google Genai Configuration ---
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyBJdxfQLxoIF66e1EfSaQdslm0l9c0IqCU")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", )
 ai_client = None
 
 if GOOGLE_API_KEY:
